@@ -78,7 +78,7 @@ public class Part_1 {
         System.out.println();
     }
 
-    // swap two elements of the array
+    // Swap two elements of the array
     public static void swap(int[] array, int k, int l) {
         int step = array[k]; //buffer; two same elements with same values;
         array[k] = array[l];
